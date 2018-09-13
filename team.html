@@ -1,0 +1,118 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="./team.css" type="text/css">
+  <link rel="stylesheet" href="./misc.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <a class="navbar-brand" href="./index.html">
+      <img src="https://buffer.songlist.moe/assets/images/unnamed-122x122.jpg" width="50" height="50" class="d-inline-block align-top"
+        alt="Buffer">
+      <span class="brand-name">Buffer</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-md-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Invite</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Community</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Commands</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./team.html">Team</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content-body">
+    <div class="team">
+      <h3 class="team-title">Developer</h3>
+      <div class="team-box">
+        <div class="social-user">
+          <img src="https://cdn.discordapp.com/avatars/299269430695952394/a_a773132d9ebf5c6506dbf16041d636e0.gif" alt="TheSongList#0001's avatar"
+            class="social-user_avatar">
+          <div class="social-user_username">TheSongList#0001</div>
+        </div>
+        <div class="social-user">
+          <img src="https://cdn.discordapp.com/avatars/401337085606494208/04dc0c030e82bebe6168daeb54e34a68.png" alt="Roman#3351's avatar"
+            class="social-user_avatar">
+          <div class="social-user_username">Roman#3351</div>
+        </div>
+      </div>
+    </div>
+    <div class="team">
+      <h3 class="team-title">Administrator</h3>
+      <div class="team-box">
+        <div class="social-user">
+          <img src="https://cdn.discordapp.com/avatars/255004610924642304/be8b63eff9cf0fbdd693d54c9685bfae.png" alt="☢⚛#7825's avatar"
+            class="social-user_avatar">
+          <div class="social-user_username">☢⚛#7825</div>
+        </div>
+      </div>
+    </div>
+    <div class="team">
+      <h3 class="team-title">Moderator</h3>
+      <div class="team-box">
+        <div class="social-user">
+          <img src="https://cdn.discordapp.com/avatars/272756143955378176/eefc816be488a7eb2212e47edbccace4.png" alt="Kurisupu#2896's avatar"
+            class="social-user_avatar">
+          <div class="social-user_username">Kurisupu#2896</div>
+        </div>
+        <div class="social-user">
+          <img src="https://cdn.discordapp.com/avatars/183570454944940032/0a7139d00672e27fed07c2516ed4f3e4.png" alt="Jaimichu9#9242's avatar"
+            class="social-user_avatar">
+          <div class="social-user_username">Jaimichu9#9242</div>
+        </div>
+      </div>
+    </div>
+    <div class="team">
+      <h3 class="team-title">Translator</h3>
+      <div class="team-box">
+        <div class="social-user">
+          <img src="https://cdn.discordapp.com/avatars/456749427198132256/7c418bac323818f9a8733e650ca519d6.png" alt="Hugo#3642's avatar"
+            class="social-user_avatar">
+          <div class="social-user_username">Hugo#3642</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="javascript:" id="return-to-top">
+    <i class="fa fa-arrow-circle-up" style="font-size:60px;color:#00CCFF"></i>
+  </a>
+  <script type="text/javascript">
+    $(window).scroll(function () {
+      if ($(this).scrollTop() >= 50) {
+        $('#return-to-top').fadeIn(200);
+      } else {
+        $('#return-to-top').fadeOut(200);
+      }
+    });
+    $('#return-to-top').click(function () {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 500);
+    });
+  </script>
+</body>
+
+</html>
